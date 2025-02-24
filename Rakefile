@@ -4,3 +4,8 @@
 require_relative "config/application"
 
 Rails.application.load_tasks
+
+# Rakefile
+Rails.application.configure do
+    config.assets.enabled = false
+  end
